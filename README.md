@@ -7,7 +7,6 @@ A machine learning project that detects fraudulent credit card transactions usin
 - Pandas
 - NumPy
 - Scikit-learn
-- Matplotlib
 - Google Colab
 
 ## Project Overview
