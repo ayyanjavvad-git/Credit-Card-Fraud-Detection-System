@@ -52,7 +52,7 @@ fraud.Amount.describe()
 #Compare values between both types of transactions
 ccd.groupby('Class').mean()
 
-#Use under-sampling to build a saple data set containing more reasonable/similar distributions of transaction types
+#Use under-sampling to build a sample data set containing more reasonable/similar distributions of transaction types
   #This way, evaluation will be more accurate
   #Set number of fraudulent cases = 492
 legit_sample = legit.sample(n=len(fraud)) #Take 492 random data points
