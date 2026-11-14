@@ -66,7 +66,7 @@ new_dataset.tail()
 #Analyzing the "Class" column:
   #We can see that the bottom rows (Class = 1) represents the fraudulent cases
   #The top rows (Class = 0) represetns legitimate cases
-  #This is because axia was set to 0 while concatenating
+  #This is because axis was set to 0 while concatenating
 
 new_dataset['Class'].value_counts()
 
