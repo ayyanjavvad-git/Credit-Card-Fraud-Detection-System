@@ -83,6 +83,7 @@ print(y) #The class column
 #Split data into Training Data & Testing Data
 x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2, stratify=y, random_state=2)
   #20% of data dedicated to training data
+  #The use of stratify ensures that both data groups mainatin approximately the same fraudulent-to-legitimate ratio as the original dataset
 
 print(x.shape, x_train.shape, x_test.shape)
 
