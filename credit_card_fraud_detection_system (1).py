@@ -83,11 +83,11 @@ new_dataset.groupby('Class').mean()
 x_train = new_dataset.drop(columns='Class', axis=1)
 y_train = new_dataset['Class']
 
-#Now, the training data is a balanced set, ready to be interpreted
-
 print(x_train)
 
 print(y_train)
+
+#Now, the training data is a balanced set, ready to be interpreted
 
 #Model Training
 
